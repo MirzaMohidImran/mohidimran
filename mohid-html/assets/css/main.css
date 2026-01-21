@@ -3136,7 +3136,7 @@ h5.preloader-text::after {
 
 .marquee-section {
   background-color: var(--theme);
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .hero-2 {
@@ -7118,6 +7118,8 @@ h5.preloader-text::after {
   text-transform: uppercase;
   max-width: 100px;
   width: 100%;
+  padding-left: 6px;
+
 }
 .feature-work-experience-main-slider .info-item p {
   max-width: 460px;
