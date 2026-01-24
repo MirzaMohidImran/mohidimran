@@ -11429,7 +11429,7 @@ h5.preloader-text::after {
 }
 @media (max-width: 1600px) {
   .cta-text-items h2 {
-    font-size: 130px;
+    font-size: 100px;
   }
 }
 @media (max-width: 991px) {
@@ -11444,11 +11444,11 @@ h5.preloader-text::after {
 }
 @media (max-width: 575px) {
   .cta-text-items h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 .cta-text-items h3 {
-  font-size: 171px;
+  font-size: 70px;
   font-weight: 700;
   letter-spacing: -1.71px;
   border-bottom: 3px solid var(--theme);

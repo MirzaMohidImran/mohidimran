@@ -2,37 +2,276 @@
 <html lang="en">
   <!--<< Header Area >>-->
   <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Gramentheme" />
-    <meta
-      name="description"
-      content="Revox – Modern Personal Portfolio HTML Template"
-    />
-    <!-- ======== Page title ============ -->
-    <title>Revox – Modern Personal Portfolio HTML Template</title>
-    <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.svg" />
-    <!--<< Bootstrap min.css >>-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body>
+  <!-- ========== Meta Tags ========== -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  
+  <!-- ======== SEO Meta Tags ============ -->
+  <title>Professional Shopify Developer | Shopify Plus Expert - Mohid Imran</title>
+  
+  <meta name="description" content="Expert Shopify & Shopify Plus developer specializing in custom ecommerce solutions, store migration, theme development, and SEO optimization. Transform your online business with professional Shopify development services." />
+  
+  <meta name="keywords" content="shopify developer, shopify expert, shopify plus development, ecommerce development, custom shopify themes, shopify migration, shopify seo optimization" />
+  
+  <meta name="author" content="Mohid Imran - Shopify Expert Developer" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://mohidimran.com/shopify-development-services" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Professional Shopify Developer | Custom Ecommerce Solutions" />
+  <meta property="og:description" content="Transform your online business with expert Shopify development. Custom themes, store optimization, and Shopify Plus solutions tailored to your needs." />
+  <meta property="og:url" content="https://mohidimran.com/shopify-development-services" />
+  <meta property="og:site_name" content="Mohid Imran - Shopify Expert" />
+  <meta property="og:image" content="https://mohidimran.com/assets/img/shopify-development-og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Shopify Development Services" />
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Professional Shopify Developer | Expert Solutions" />
+  <meta name="twitter:description" content="Expert Shopify & Shopify Plus development services. Custom themes, migrations, and optimization for high-converting ecommerce stores." />
+  <meta name="twitter:image" content="https://mohidimran.com/assets/img/shopify-development-twitter.jpg" />
+  <meta name="twitter:image:alt" content="Shopify Development Services" />
+  
+  <!-- Geographic Tags -->
+  <meta name="geo.region" content="PK-PB" />
+  <meta name="geo.placename" content="Lahore" />
+  <meta name="geo.position" content="31.5204;74.3587" />
+  <meta name="ICBM" content="31.5204, 74.3587" />
+  
+  <!-- Language Alternatives (hreflang) -->
+  <link rel="alternate" hreflang="en" href="https://mohidimran.com/shopify-development-services" />
+  <link rel="alternate" hreflang="x-default" href="https://mohidimran.com/shopify-development-services" />
+  
+  <!--<< Favcion >>-->
+  <link rel="shortcut icon" href="assets/img/favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  
+  <!-- Preconnect to external domains -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+  <!-- Preload Critical Resources -->
+  <link rel="preload" as="style" href="assets/css/main.css" />
+  <link rel="preload" as="font" href="assets/fonts/primary-font.woff2" type="font/woff2" crossorigin />
+  
+  <!--<< Stylesheets >>-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets/css/meanmenu.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  
+  <!-- JSON-LD Schema Markup - Enhanced -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://mohidimran.com/#person",
+        "name": "Mohid Imran",
+        "url": "https://mohidimran.com",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://mohidimran.com/assets/img/home-1/hero/hero-image.png",
+          "width": 800,
+          "height": 800
+        },
+        "jobTitle": "Shopify Expert & Full Stack Developer",
+        "description": "Professional Shopify and Shopify Plus developer specializing in custom ecommerce solutions, theme development, and store optimization.",
+        "knowsAbout": [
+          "Shopify Development",
+          "Shopify Plus",
+          "Ecommerce Development",
+          "Shopify SEO",
+          "Custom Theme Development",
+          "Platform Migration"
+        ],
+        "telephone": "+92-162-6479559",
+        "email": "hi.mohidimran@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PK",
+          "addressLocality": "Lahore",
+          "addressRegion": "Punjab"
+        },
+        "sameAs": [
+          "https://www.facebook.com/mohidimran",
+          "https://twitter.com/mohidimran",
+          "https://www.linkedin.com/in/mohidimran"
+        ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://mohidimran.com/#service",
+        "name": "Mohid Imran Shopify Development Services",
+        "description": "Expert Shopify and Shopify Plus development services including custom theme development, store migration, SEO optimization, and performance enhancement.",
+        "url": "https://mohidimran.com/shopify-development-services",
+        "telephone": "+92-162-6479559",
+        "email": "hi.mohidimran@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PK",
+          "addressLocality": "Lahore",
+          "addressRegion": "Punjab"
+        },
+        "priceRange": "$$",
+        "serviceType": [
+          "Shopify Development",
+          "Shopify Plus Development",
+          "Custom Theme Development",
+          "Store Migration",
+          "SEO Optimization"
+        ],
+        "provider": {
+          "@id": "https://mohidimran.com/#person"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Worldwide"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Shopify Development Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Custom Shopify Store Setup",
+                "description": "Complete Shopify store configuration and setup tailored to your business needs"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Shopify Plus Development",
+                "description": "Enterprise-level Shopify Plus solutions with advanced customization"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Platform Migration",
+                "description": "Seamless migration from WooCommerce, Magento, or other platforms to Shopify"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Shopify SEO Optimization",
+                "description": "Technical SEO implementation and optimization for better search rankings"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://mohidimran.com/shopify-development-services#webpage",
+        "url": "https://mohidimran.com/shopify-development-services",
+        "name": "Professional Shopify Developer | Expert Development Services",
+        "description": "Expert Shopify & Shopify Plus development services. Custom themes, migrations, SEO optimization, and performance enhancement for high-converting ecommerce stores.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://mohidimran.com/#website",
+          "url": "https://mohidimran.com",
+          "name": "Mohid Imran - Shopify Expert",
+          "publisher": {
+            "@id": "https://mohidimran.com/#person"
+          }
+        },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://mohidimran.com/assets/img/inner/service-details/service-details-01.jpg"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://mohidimran.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Services",
+              "item": "https://mohidimran.com/services"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Shopify Development",
+              "item": "https://mohidimran.com/shopify-development-services"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you provide Shopify development services internationally?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, I provide complete Shopify development services for businesses globally. I work with clients across different time zones and markets, offering tailored solutions for diverse business needs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you handle Shopify development for businesses operating in multiple markets?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. I specialize in multi-market Shopify development including multi-store management, international SEO with hreflang implementation, multi-currency setups, global shipping configurations, and tax compliance for different regions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is your experience with Shopify Plus for enterprise businesses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I have extensive experience with Shopify Plus for enterprise businesses. This includes advanced customizations, checkout optimization, automation workflows, multi-language storefronts, and scalable infrastructure for high-traffic stores."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you handle timezone differences for international clients?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I work with flexible hours to accommodate clients in different time zones. I provide 24/7 emergency support and schedule meetings that align with your local business hours for seamless communication and project management."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you optimize Shopify stores for local search in specific markets?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, I implement local SEO optimization for specific markets and regions. This includes geo-targeted content, local keyword research, location-specific meta tags, and local search optimization strategies tailored to your target audience."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+  <body itemscope itemtype="https://schema.org/WebPage">
     <!-- Preloader Start -->
     <div class="preloader">
       <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
@@ -42,7 +281,7 @@
     </div>
 
     <!-- Back To Top Start -->
-    <button id="back-top" class="back-to-top">
+    <button id="back-top" class="back-to-top" aria-label="Back to top">
       <i class="fa-regular fa-arrow-up"></i>
     </button>
 
@@ -60,19 +299,17 @@
             >
               <div class="offcanvas__logo">
                 <a href="index.html">
-                  <img src="assets/img/logo/white-icon.svg" alt="img" />
+                  <img src="assets/img/logo/white-icon.svg" alt="Mohid Imran - Shopify Expert Logo" width="120" height="40" />
                 </a>
               </div>
               <div class="offcanvas__close">
-                <button>
+                <button aria-label="Close menu">
                   <i class="fas fa-times"></i>
                 </button>
               </div>
             </div>
             <p class="text d-none d-xl-block">
-              Nullam dignissim, ante scelerisque the is euismod fermentum odio
-              sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean
-              a imperdiet risus.
+              Professional Shopify and Shopify Plus developer specializing in custom ecommerce solutions. Delivering high-performance online stores with advanced functionality and seamless user experiences.
             </p>
             <div class="mobile-menu fix mb-3"></div>
           </div>
@@ -82,20 +319,19 @@
     <div class="offcanvas__overlay"></div>
 
     <!-- Header Section Start -->
-            <!-- Header Section Start -->
         <header id="header-sticky" class="header-2 inner-page-style">
             <div class="container">
                 <div class="mega-menu-wrapper">
                     <div class="header-main">
                         <a href="index.html" class="header-logo">
-                            <img src="assets/img/logo/white-icon.svg" alt="img">
+                            <img src="assets/img/logo/white-icon.svg" alt="Mohid Imran - Shopify Expert Developer Logo" width="120" height="40">
                         </a>
-                         <div class="mean__menu-wrapper">
+                        <div class="mean__menu-wrapper">
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
                                         <li class="has-dropdown active d-xl-none">
-                                            <a href="javascript:void(0)" class="border-none">
+                                            <a href="index.html" class="border-none">
                                             Home
                                             </a>
                                         </li>
@@ -113,7 +349,7 @@
                                                         <i class="fas fa-angle-right"></i>
                                                     </a>
                                                     <ul class="submenu">
-                                                        <li><a href="shopify.html">Shopify</a></li>
+                                                        <li><a href="shopify.html">Shopify Development</a></li>
                                                         <li><a href="wordpress.html">WordPress</a></li>
                                                         <li><a href="angular.html">Angular</a></li>
                                                         <li><a href="python-django.html">Python</a></li>
@@ -154,7 +390,7 @@
                             <a href="contact.html" class="theme-btn">Hire Me <i class="fa-solid fa-arrow-up-right"></i></a>
                             <div class="header__hamburger d-xl-none my-auto">
                                <div class="sidebar__toggle">
-                                    <img src="assets/img/bar.svg" alt="img">
+                                    <img src="assets/img/bar.svg" alt="Menu toggle" width="30" height="30">
                                 </div>
                             </div>
                         </div>
@@ -170,114 +406,81 @@
           <div class="container">
             <div class="service-details-wrapper">
               <div class="top-image-items">
-                <h1>Shopify and Shopify Plus Development</h1>
+                <h1 itemprop="headline">Professional Shopify & Shopify Plus Development Services</h1>
                 <div class="service-details-image fix">
                   <img
                     data-speed=".7"
                     src="assets/img/inner/service-details/service-details-01.jpg"
-                    alt="img"
+                    alt="Shopify Development Services - Custom Ecommerce Solutions"
+                    title="Expert Shopify Development"
+                    width="1200"
+                    height="675"
+                    loading="eager"
                   />
                 </div>
               </div>
               <div class="bottom-content-items">
-                <h2>Overview</h2>
+                <h2>Comprehensive Shopify Development Solutions</h2>
                 <p>
-                  I provide complete Shopify and Shopify Plus development
-                  services designed for brands that want performance,
-                  scalability, and long term growth. From startups launching
-                  their first online store to high volume businesses migrating
-                  to Shopify Plus, I build secure, fast, and conversion focused
-                  e commerce solutions tailored to your business goals. Every
-                  Shopify store is developed with clean code, SEO best
-                  practices, mobile first design, and seamless integrations to
-                  ensure smooth customer experiences and high conversion rates.
+                  I provide expert <strong>Shopify and Shopify Plus development services</strong> designed to transform your ecommerce business. From startups launching their first online store to established enterprises scaling operations, I build secure, fast, and conversion-focused solutions tailored to your specific business goals. Every Shopify store is developed with clean code, SEO best practices, mobile-first design, and seamless integrations to ensure exceptional customer experiences and maximize your revenue potential.
                 </p>
-                <h3>Shopify Store Setup and Configuration</h3>
+                
+                <h3>Complete Shopify Store Setup and Configuration</h3>
                 <p>
-                  I handle full Shopify store setup from scratch including store
-                  configuration, theme setup, product structure, collections,
-                  taxes, shipping, and payment gateways. Whether you are
-                  starting a new business or rebranding an existing one, I
-                  ensure your Shopify store is structured correctly for growth
-                  and search engine visibility.
+                  I handle end-to-end <strong>Shopify store setup</strong> that sets the foundation for your online success. This includes platform configuration, payment gateway integration, shipping method setup, tax configuration, product catalog organization, and initial theme customization. Your store will be structured correctly from day one, ensuring smooth operations and strong search engine visibility to attract your target customers effectively.
                 </p>
+                
                 <h3>Custom Shopify Theme Development</h3>
                 <p>
-                  Your brand deserves a unique storefront. I develop fully
-                  custom Shopify themes using Liquid, HTML, CSS, and JavaScript.
-                  This includes custom layouts, sections, and reusable
-                  components that match your brand identity while maintaining
-                  performance and scalability. All themes are lightweight,
-                  responsive, and optimized for speed and SEO.
+                  Your brand deserves a unique digital storefront. I develop fully custom <strong>Shopify themes</strong> using Liquid, HTML5, CSS3, and JavaScript that perfectly represent your brand identity. This includes responsive layouts, custom sections, reusable components, and advanced functionality tailored to your business requirements. All themes are lightweight, performance-optimized, and built to convert visitors into customers while maintaining exceptional page speed scores.
                 </p>
-                <h3>Shopify Plus Development for High Growth Brands</h3>
+                
+                <h3>Shopify Plus Development for Enterprise</h3>
                 <p>
-                  For businesses scaling rapidly or handling high traffic and
-                  large order volumes, I offer Shopify Plus development
-                  services. This includes advanced theme customization, Shopify
-                  Scripts, checkout customization, automation workflows, and
-                  enterprise level integrations. Shopify Plus solutions are
-                  built to support global selling, multi store management, and
-                  high performance infrastructure without compromising user
-                  experience.
+                  For rapidly scaling businesses, I offer comprehensive <strong>Shopify Plus development services</strong> that unlock enterprise-level capabilities. This includes advanced theme customization, Shopify Scripts implementation, custom checkout experiences, wholesale channel setup, multi-store management, automation workflows, and sophisticated integrations with your existing business systems. Perfect for high-volume merchants requiring advanced functionality and dedicated infrastructure.
                 </p>
-                <h3>Shopify Migration</h3>
+                
+                <h3>Seamless Platform Migration to Shopify</h3>
                 <p>
-                  I provide secure and seamless migration from platforms such as
-                  WooCommerce, Magento, Wix, BigCommerce, and custom systems to
-                  Shopify or Shopify Plus. This includes product data, customer
-                  records, orders, URLs, and SEO preservation to ensure zero
-                  data loss and minimal downtime.
+                  I provide secure and efficient <strong>platform migration services</strong> for businesses moving from WooCommerce, Magento, BigCommerce, Wix, or custom ecommerce systems to Shopify or Shopify Plus. This includes complete data migration (products, customers, orders), URL structure preservation, 301 redirect implementation, SEO value retention, and thorough testing to ensure zero downtime and no data loss during the transition process.
                 </p>
-                <h3>Shopify App Integration and Custom Functionality</h3>
+                
+                <h3>Strategic Shopify App Integration</h3>
                 <p>
-                  I integrate essential Shopify apps and third party tools to
-                  extend store functionality including payment gateways,
-                  shipping providers, CRM systems, inventory tools, analytics
-                  platforms, and marketing automation. For advanced needs, I
-                  also develop custom features and workflows tailored to your
-                  business processes.
+                  I integrate essential <strong>Shopify apps</strong> and third-party services that enhance your store's functionality and streamline operations. This includes payment gateways (Stripe, PayPal, Authorize.net), shipping solutions, inventory management systems, email marketing platforms, customer support tools, analytics services, and custom API integrations. Each integration is carefully implemented to work seamlessly with your existing workflow.
                 </p>
-                <h3>Shopify Performance Optimization</h3>
+                
+                <h3>Performance Optimization for Speed</h3>
                 <p>
-                  Store speed directly impacts conversions and search rankings.
-                  I optimize Shopify stores for fast loading times through
-                  performance improvements, asset optimization, code cleanup,
-                  and mobile responsiveness. This results in improved user
-                  experience, reduced bounce rates, and higher conversion rates.
+                  Store speed directly impacts your conversion rate and search rankings. I optimize Shopify stores for lightning-fast loading times through strategic performance enhancements including image optimization, code minification, lazy loading implementation, third-party script optimization, and mobile performance tuning. This results in improved user experience, reduced bounce rates, and higher conversion rates across all devices.
                 </p>
-                <h3>Shopify SEO Optimization</h3>
+                
+                <h3>Technical SEO Optimization</h3>
                 <p>
-                  All Shopify stores are built with SEO friendly architecture
-                  and best practices. This includes optimized URLs, meta titles,
-                  descriptions, schema setup, clean code structure, image
-                  optimization, internal linking, and technical SEO
-                  configuration. My goal is to help your Shopify store rank
-                  higher on search engines and attract consistent organic
-                  traffic.
+                  All Shopify stores are built with <strong>comprehensive SEO best practices</strong> including semantic HTML structure, optimized meta tags, schema markup implementation, XML sitemap configuration, robots.txt optimization, canonical URL setup, and technical SEO auditing. My goal is to help your store rank higher in search engines and attract consistent, qualified organic traffic that converts into sales.
                 </p>
-                <h3>Shopify Automation and Workflow Optimization</h3>
+                
+                <h3>Marketing Automation and Integration</h3>
                 <p>
-                  I implement automation solutions to streamline store
-                  operations such as order processing, inventory updates,
-                  customer segmentation, and reporting. This reduces manual
-                  effort and improves efficiency using smart Shopify workflows
-                  and integrations.
+                  I implement <strong>marketing automation solutions</strong> to streamline your customer engagement including abandoned cart recovery, email marketing workflows, customer segmentation, loyalty program setup, and integration with platforms like Klaviyo, Mailchimp, and HubSpot. These automated systems help you nurture leads, increase customer lifetime value, and maximize revenue without constant manual intervention.
                 </p>
-                <h3>Shopify Maintenance and Support</h3>
+                
+                <h3>Ongoing Maintenance and Support</h3>
                 <p>
-                  I provide ongoing Shopify support, updates, bug fixes, and
-                  feature enhancements. Whether you need regular maintenance or
-                  long term collaboration, I ensure your store remains secure,
-                  updated, and optimized.
+                  I provide continuous <strong>Shopify support and maintenance</strong> services to keep your store running smoothly. This includes regular updates, bug fixes, security monitoring, performance optimization, feature enhancements, and technical troubleshooting. You'll have dedicated support to address issues quickly and ensure your store operates at peak performance year-round.
                 </p>
+                
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="service-image fix">
                       <img
                         data-speed=".7"
                         src="assets/img/inner/service-details/service-details-02.jpg"
-                        alt="img"
+                        alt="Custom Shopify Theme Development"
+                        title="Professional Shopify Theme Design"
+                        width="585"
+                        height="400"
+                        loading="lazy"
                       />
                     </div>
                   </div>
@@ -286,43 +489,55 @@
                       <img
                         data-speed=".7"
                         src="assets/img/inner/service-details/service-details-03.jpg"
-                        alt="img"
+                        alt="Shopify Plus Enterprise Solutions"
+                        title="Advanced Shopify Plus Development"
+                        width="585"
+                        height="400"
+                        loading="lazy"
                       />
                     </div>
                   </div>
                 </div>
-                <h3>How This Service Benefits Your Business</h3>
-                <p></p>
+                
+                <h3>Why Choose My Shopify Development Services</h3>
                 <div class="text-list">
                   <ul>
                     <li>
-                      <b>01</b>Complete Shopify and Shopify Plus Solutions
+                      <b>01</b>Expert Shopify Specialization
                       <p>
-                        You get everything from setup to scaling under one
-                        professional service.
+                        Deep expertise in <strong>Shopify and Shopify Plus development</strong> with proven experience building high-converting ecommerce stores across diverse industries and business models.
                       </p>
                     </li>
                     <li>
-                      <b>03</b>Scalable and Future Ready Development
+                      <b>03</b>Performance-Focused Approach
                       <p>
-                        Your store is built to grow with your business without
-                        performance issues.
+                        Every store is optimized for speed, conversions, and search engine rankings. I prioritize technical excellence and measurable business results in every project.
+                      </p>
+                    </li>
+                    <li>
+                      <b>05</b>Transparent Communication
+                      <p>
+                        Clear, consistent communication throughout the development process. You'll always know project status, timelines, and next steps with regular updates and progress reports.
                       </p>
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <b>02</b>SEO and Conversion Focused Builds
+                      <b>02</b>Clean, Maintainable Code
                       <p>
-                        Every decision is made to improve visibility, speed, and
-                        sales.
+                        All development follows Shopify best practices and coding standards. Your store will be easy to maintain, update, and scale as your business grows.
                       </p>
                     </li>
                     <li>
-                      <b>04</b>Reliable Communication and Support
+                      <b>04</b>Mobile-First Development
                       <p>
-                        Clear communication, timely delivery, and post launch
-                        support you can rely on.
+                        With over 70% of ecommerce traffic coming from mobile devices, every store is designed and optimized for exceptional mobile user experiences and conversions.
+                      </p>
+                    </li>
+                    <li>
+                      <b>06</b>Competitive Pricing
+                      <p>
+                        Professional <strong>Shopify development services</strong> at competitive rates with transparent pricing. Quality work that delivers measurable ROI for your investment.
                       </p>
                     </li>
                   </ul>
@@ -345,18 +560,15 @@
                   </div>
                   <ul class="accordion-box">
                     <!--Block-->
-                    <li class="accordion block active-block wow fadeInUp">
-                      <div class="acc-btn active">
-                        What Shopify services do you provide?
+                    <li class="accordion block active-block wow fadeInUp" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                      <div class="acc-btn active" itemprop="name">
+                        Do you provide Shopify development services internationally?
                         <div class="icon fa fa-plus"></div>
                       </div>
-                      <div class="acc-content current">
+                      <div class="acc-content current" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <div class="content">
-                          <div class="text">
-                            I provide Shopify store setup, custom theme
-                            development, Shopify Plus development, migrations,
-                            app integrations, automation, performance
-                            optimization, and SEO services.
+                          <div class="text" itemprop="text">
+                            Yes, I provide complete Shopify development services for businesses globally. I work with clients across different time zones and markets, offering tailored solutions for diverse business needs.
                           </div>
                         </div>
                       </div>
@@ -365,18 +577,16 @@
                     <li
                       class="accordion block wow fadeInUp"
                       data-wow-delay=".2s"
+                      itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
                     >
-                      <div class="acc-btn">
-                        What is the difference between Shopify and Shopify Plus?
+                      <div class="acc-btn" itemprop="name">
+                        Can you handle Shopify development for businesses operating in multiple markets?
                         <div class="icon fa fa-plus"></div>
                       </div>
-                      <div class="acc-content">
+                      <div class="acc-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <div class="content">
-                          <div class="text">
-                            Shopify Plus is designed for high growth and
-                            enterprise level businesses. It offers advanced
-                            customization, automation tools, and scalability
-                            features not available in standard Shopify plans.
+                          <div class="text" itemprop="text">
+                            Absolutely. I specialize in multi-market Shopify development including multi-store management, international SEO with hreflang implementation, multi-currency setups, global shipping configurations, and tax compliance for different regions.
                           </div>
                         </div>
                       </div>
@@ -385,17 +595,16 @@
                     <li
                       class="accordion block wow fadeInUp"
                       data-wow-delay=".4s"
+                      itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
                     >
-                      <div class="acc-btn">
-                        How long does it take to complete a project?
+                      <div class="acc-btn" itemprop="name">
+                        What is your experience with Shopify Plus for enterprise businesses?
                         <div class="icon fa fa-plus"></div>
                       </div>
-                      <div class="acc-content">
+                      <div class="acc-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <div class="content">
-                          <div class="text">
-                            I work with HTML, CSS, JavaScript, React, Node.js,
-                            and other modern web development frameworks and
-                            tools.
+                          <div class="text" itemprop="text">
+                            I have extensive experience with Shopify Plus for enterprise businesses. This includes advanced customizations, checkout optimization, automation workflows, multi-language storefronts, and scalable infrastructure for high-traffic stores.
                           </div>
                         </div>
                       </div>
@@ -404,17 +613,16 @@
                     <li
                       class="accordion block wow fadeInUp"
                       data-wow-delay=".6s"
+                      itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
                     >
-                      <div class="acc-btn">
-                        How long does it take to build a Shopify store?
+                      <div class="acc-btn" itemprop="name">
+                        How do you handle timezone differences for international clients?
                         <div class="icon fa fa-plus"></div>
                       </div>
-                      <div class="acc-content">
+                      <div class="acc-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <div class="content">
-                          <div class="text">
-                            A standard Shopify store usually takes one to two
-                            weeks. Advanced or Shopify Plus projects may take
-                            three to six weeks depending on complexity.
+                          <div class="text" itemprop="text">
+                            I work with flexible hours to accommodate clients in different time zones. I provide 24/7 emergency support and schedule meetings that align with your local business hours for seamless communication and project management.
                           </div>
                         </div>
                       </div>
@@ -422,16 +630,16 @@
                     <li
                       class="accordion block mb-0 wow fadeInUp"
                       data-wow-delay=".8s"
+                      itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
                     >
-                      <div class="acc-btn">
-                        Are Shopify stores mobile friendly?
+                      <div class="acc-btn" itemprop="name">
+                        Can you optimize Shopify stores for local search in specific markets?
                         <div class="icon fa fa-plus"></div>
                       </div>
-                      <div class="acc-content">
+                      <div class="acc-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <div class="content">
-                          <div class="text">
-                            Yes. All Shopify and Shopify Plus stores are fully
-                            responsive and optimized for all devices.
+                          <div class="text" itemprop="text">
+                            Yes, I implement local SEO optimization for specific markets and regions. This includes geo-targeted content, local keyword research, location-specific meta tags, and local search optimization strategies tailored to your target audience.
                           </div>
                         </div>
                       </div>
@@ -443,31 +651,53 @@
                 <div class="faq-content-items">
                   <div class="section-title mb-0">
                     <h2 class="hero_title tv_hero_title hero_title_1">
-                      Contact <span>For Work</span>
+                      Contact for <span>Shopify Development</span>
                     </h2>
                   </div>
                   <form action="#" class="wow fadeInUp" data-wow-delay=".3s">
                     <div class="row g-4">
                       <div class="col-lg-6">
                         <div class="form-clt">
-                          <input type="text" placeholder="Enter Your Name" />
+                          <input type="text" name="name" placeholder="Enter Your Name" aria-label="Your Name" required />
                         </div>
                       </div>
                       <div class="col-lg-6">
                         <div class="form-clt">
-                          <input type="text" placeholder="Enter Your Number" />
+                          <input type="tel" name="phone" placeholder="Enter Your Number" aria-label="Your Phone Number" required />
                         </div>
                       </div>
                       <div class="col-lg-12">
                         <div class="form-clt">
-                          <input type="text" placeholder="Enter Your Email" />
+                          <input type="email" name="email" placeholder="Enter Your Email" aria-label="Your Email Address" required />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-clt">
+                          <select name="country" aria-label="Your Country" required>
+                            <option value="">Select Your Country</option>
+                            <option value="pakistan">Pakistan</option>
+                            <option value="usa">United States</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="uae">United Arab Emirates</option>
+                            <option value="canada">Canada</option>
+                            <option value="australia">Australia</option>
+                            <option value="germany">Germany</option>
+                            <option value="france">France</option>
+                            <option value="india">India</option>
+                            <option value="singapore">Singapore</option>
+                            <option value="saudi-arabia">Saudi Arabia</option>
+                            <option value="other">Other Country</option>
+                          </select>
                         </div>
                       </div>
                       <div class="col-lg-12">
                         <div class="form-clt">
                           <textarea
                             name="message"
-                            placeholder="Enter Your Messanger"
+                            placeholder="Enter Your Message"
+                            aria-label="Your Message"
+                            rows="4"
+                            required
                           ></textarea>
                         </div>
                       </div>
@@ -476,20 +706,20 @@
                           <div class="budget-item">
                             <h4>project budget</h4>
                             <div class="budget-button">
-                              <button type="button" class="budget-btn">
+                              <button type="button" class="budget-btn" data-budget="500">
                                 $500
                               </button>
-                              <button type="button" class="budget-btn">
+                              <button type="button" class="budget-btn" data-budget="1200">
                                 $1200
                               </button>
-                              <button type="button" class="budget-btn">
+                              <button type="button" class="budget-btn" data-budget="2000">
                                 $2000
                               </button>
-                              <button type="button" class="budget-btn">
+                              <button type="button" class="budget-btn" data-budget="3500">
                                 $3500
                               </button>
-                              <button type="button" class="budget-btn">
-                                $6000
+                              <button type="button" class="budget-btn" data-budget="6000">
+                                $6000+
                               </button>
                             </div>
                           </div>
@@ -513,54 +743,54 @@
         <div class="brand-section section-padding">
           <div class="container">
             <div class="brand-text">
-              <p>worldwide <b>valuable clients</b></p>
+              <p>trusted by <b>leading brands</b> worldwide</p>
             </div>
             <div class="row g-3 g-xl-5">
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-1.png" alt="img" />
+                  <img src="assets/img/home-1/brand/brand-1.png" alt="Shopify Client Portfolio" width="200" height="80" loading="lazy" />
                 </div>
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-2.png" alt="img" />
+                  <img src="assets/img/home-1/brand/brand-2.png" alt="Ecommerce Development Client" width="200" height="80" loading="lazy" />
                 </div>
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-3.png" alt="img" />
+                  <img src="assets/img/home-1/brand/brand-3.png" alt="Shopify Plus Client" width="200" height="80" loading="lazy" />
                 </div>
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-4.png" alt="img" />
+                  <img src="assets/img/home-1/brand/brand-4.png" alt="Online Store Development Client" width="200" height="80" loading="lazy" />
                 </div>
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-5.png" alt="img" />
+                  <img src="assets/img/home-1/brand/brand-5.png" alt="Custom Shopify Theme Client" width="200" height="80" loading="lazy" />
                 </div>
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-6.png" alt="img" />
+                  <img src="assets/img/home-1/brand/brand-6.png" alt="Shopify Migration Client" width="200" height="80" loading="lazy" />
                 </div>
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-7.png" alt="img" />
+                  <img src="assets/img/home-1/brand/brand-7.png" alt="Enterprise Ecommerce Client" width="200" height="80" loading="lazy" />
                 </div>
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-8.png" alt="img" />
+                  <img src="assets/img/home-1/brand/brand-8.png" alt="International Shopify Client" width="200" height="80" loading="lazy" />
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Cta Section Start -->
+                <!-- Cta Section Start -->
         <section class="cta-section section-padding fix pt-0">
           <div class="shape-1">
             <img src="assets/img/home-1/cta/cta-shape-1.png" alt="img" />
@@ -586,17 +816,17 @@
                 <div class="icon">
                   <img src="assets/img/home-1/cta/cta-icon.svg" alt="img" />
                 </div>
-                <h2 class="text_invert-2">Looking for a reliable <br>Shopify or Shopify Plus developer</h2>
+                <h2 class="text_invert-2">Ready to build a high-converting <br>Shopify store for your business?</h2>
                 <h3 class="footer-big-text wt-about-title2">
-                  <a href="contact.html">Let’s build</a>
+                  <a href="contact.html">Let's create your perfect ecommerce solution!</a>
                 </h3>
                 <p class="wow fadeInUp" data-wow-delay=".3s">
-                   A Shopify store that scales with your business.
-                   <br>
-                   I am available for project based, part time, and long term collaborations with agencies, companies, and brands worldwide.
+                  Get a professional Shopify store that scales with your business and drives measurable results.
+                  <br />
+                  I'm available for project-based work, ongoing partnerships, and long-term collaborations <br>with agencies, startups, and established brands looking to elevate their online presence.
                 </p>
                 <div class="cta-btn wow fadeInUp" data-wow-delay=".5s">
-                  <a href="tel:01626479559" class="theme-btn"
+                  <a href="https://wa.me/923126288419" class="theme-btn"
                     >chat on whatsapp <i class="fa-solid fa-arrow-up-right"></i
                   ></a>
                   <a href="contact.html" class="theme-btn"
@@ -710,5 +940,10 @@
     <script src="assets/js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
+    
+    <script>
+    // Set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
   </body>
-</html>
+</html
