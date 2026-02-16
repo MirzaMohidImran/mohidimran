@@ -12322,3 +12322,6 @@ section.testimonial-section-2.section-padding.pt-0.fix {
     height: 26px;
   }
 }
+.client-image IMG {
+    border-radius: 50px;
+}
