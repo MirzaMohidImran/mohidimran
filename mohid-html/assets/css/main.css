@@ -12321,6 +12321,9 @@ section.testimonial-section-2.section-padding.pt-0.fix {
     width: 26px;
     height: 26px;
   }
+  .offcanvas__logo img {
+    width: 56px;
+}
 }
 .client-image IMG {
     border-radius: 50px;
