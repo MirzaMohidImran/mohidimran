@@ -12328,3 +12328,7 @@ section.testimonial-section-2.section-padding.pt-0.fix {
 .client-image IMG {
     border-radius: 50px;
 }
+img.animated-image {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
