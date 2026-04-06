@@ -1,670 +1,635 @@
-<!DOCTYPE html>
-<html lang="en">
-  <!--<< Header Area >>-->
-  <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Gramentheme" />
-    <title>Python & Django Developer for Hire | Backend & API Development</title>
-    <meta name="description" content="Freelance Python and Django developer offering backend development, REST API integrations, web scraping, and AI-powered automation. Scalable, secure solutions for businesses worldwide.">
-    <!-- ======== Page title ============ -->
-     <link rel="canonical" href="https://www.mohidimran.com/python.html">
-    <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.svg" />
-    <!--<< Bootstrap min.css >>-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body>
-   <!-- Preloader Start -->
-        <div class="preloader">
-            <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-                <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-            </svg>
-            <h5 class="preloader-text">MOHID</h5>
-        </div>
-        
-        <!-- Back To Top Start -->
-        <button id="back-top" class="back-to-top">
-            <i class="fa-regular fa-arrow-up"></i>
-        </button>
-
-        <!-- GT MouseCursor Start -->
-        <div class="mouseCursor cursor-outer"></div>
-        <div class="mouseCursor cursor-inner"></div>
-
-        <!-- Offcanvas Area Start -->
-        <div class="fix-area">
-            <div class="offcanvas__info style-2">
-                <div class="offcanvas__wrapper">
-                    <div class="offcanvas__content">
-                        <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
-                            <div class="offcanvas__logo">
-                                <a href="index.html">
-                                    <img src="assets/img/logo/white-icon.svg" alt="img">
-                                </a>
-                            </div>
-                            <div class="offcanvas__close">
-                                <button>
-                                <i class="fas fa-times"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <p class="text d-none d-xl-block">
-                            Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                        </p>
-                        <div class="mobile-menu fix mb-3"></div>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="offcanvas__overlay"></div>
-
-    <!-- Header Section Start -->
-    <header id="header-sticky" class="header-2 inner-page-style">
-      <div class="container">
-        <div class="mega-menu-wrapper">
-          <div class="header-main">
-            <a href="index.html" class="header-logo">
-              <img src="assets/img/logo/white-icon.svg" alt="Mohid Imran - WordPress Development Expert Logo" width="120" height="40" />
-            </a>
-            <div class="mean__menu-wrapper">
-              <div class="main-menu">
-                <nav id="mobile-menu" aria-label="Main navigation">
-                  <ul>
-                    <li class="has-dropdown active menu-thumb">
-                      <a href="index.html"> Home </a>
-                    </li>
-                    <li class="has-dropdown active d-xl-none">
-                      <a href="index.html" class="border-none">
-                        Home
-                      </a>
-                    </li>
-                    <li>
-                      <a href="about.html">about me</a>
-                    </li>
-                    <li class="has-dropdown">
-                      <a href="javascript:void(0)"> Services </a>
-                      <ul class="submenu">
-                        <!-- <li class="has-dropdown">
-                          <a href="javascript:void(0)">
-                            Service
-                            <i class="fas fa-angle-right"></i>
-                          </a>
-                          <ul class="submenu">
-                            <li><a href="service.html">Services</a></li>
-                            <li>
-                              <a href="service-details.html">Service Details</a>
-                            </li>
-                          </ul>
-                        </li> -->
-                        <li><a href="shopify.html">Shopify</a></li>
-                        <li><a href="wordpress.html">WordPress</a></li>
-                        <li><a href="angular.html">Frontend Development</a></li>
-                        <li><a href="python.html">Backend Development</a></li>
-                        <li><a href="custom-development.html">FullStack Development</a></li>
-                        <li><a href="automation.html">AI Automation & Web Scraping</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="project-grid.html"> Portfolio </a>
-                    </li>
-                    <li>
-                      <a href="news-grid.html"> Blog </a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact Us</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-            <div
-              class="header-right d-flex justify-content-end align-items-center mt-0"
-            >
-              <a href="contact.html" class="theme-btn"
-                >Hire Me <i class="fa-solid fa-arrow-up-right"></i
-              ></a>
-              <div class="header__hamburger d-xl-none my-auto">
-                <div class="sidebar__toggle">
-                  <img src="assets/img/bar.svg" alt="Menu toggle" width="30" height="30" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <div id="smooth-wrapper">
-      <div id="smooth-content">
-        <!-- Service Details Section Start -->
-        <section class="service-details-section section-padding">
-          <div class="container">
-            <div class="service-details-wrapper">
-              <div class="top-image-items">
-                <h1>Python and Django Development</h1>
-                <div class="service-details-image fix">
-                  <img
-                    data-speed=".7"
-                    src="assets/img/inner/service-details/service-details-01.jpg"
-                    alt="img"
-                  />
-                </div>
-              </div>
-              <div class="bottom-content-items">
-                <h2>Overview</h2>
-                <p>
-                  I provide professional Python and Django development services focused on building secure, scalable, and high performance web applications. From backend systems to full stack web platforms, I develop reliable solutions that support business growth, automation, and data driven workflows.
-
-                  Every Python and Django application is built with clean architecture, optimized performance, and security best practices to ensure long term stability and maintainability. 
-                </p>
-                <h3>Custom Python and Django Web Application Development</h3>
-                <p>
-                  I build custom web applications using Python and Django tailored to your business requirements. Whether you need a SaaS platform, internal business system, admin panel, or custom backend solution, I develop scalable applications designed for efficiency and growth.
-
-                  Each solution is structured to handle complex logic, data processing, and secure user management.
-                </p>
-                <h3>Django Backend Development and API Solutions</h3>
-                <p>
-                  I develop robust Django backends and REST APIs to power web and mobile applications. This includes authentication systems, role based access control, database management, and API integrations.
-
-                  Django based APIs are optimized for performance, security, and seamless communication with frontend applications such as Angular or other frameworks.
-                </p>
-                <h3>Python Automation and Workflow Optimization</h3>
-                <p>
-                  I create Python based automation solutions to reduce manual work and improve operational efficiency. This includes task automation, data processing scripts, scheduled jobs, and workflow automation tailored to your business needs.
-
-                  Automation helps businesses save time, reduce errors, and improve productivity.
-                </p>
-                <h3>Web Scraping and Data Extraction Services</h3>
-                <p>
-                  I provide professional web scraping and data extraction services using Python to collect structured data from websites and online platforms. This includes handling large datasets, pagination, dynamic content, and data cleaning.
-
-                  All scraping solutions are built responsibly and optimized for accuracy and performance.
-                </p>
-                <h3>AI Driven Automation and Intelligent Systems</h3>
-                <p>
-                  I implement AI powered automation solutions using Python to enhance data processing, decision making, and workflow efficiency. This includes intelligent data handling, automation logic, and integration with existing systems to create smarter digital solutions.
-                </p>
-                <h3>Python and Django Performance Optimization</h3>
-                <p>
-                  Application performance is critical for scalability and reliability. I optimize Python and Django applications by improving database queries, caching strategies, code efficiency, and server side performance.
-
-This ensures faster response times and improved user experience.
-                </p>
-                <h3>Python and Django Security Implementation</h3>
-                <p>
-                  I implement strong security measures including secure authentication, data validation, access control, and protection against common vulnerabilities. Security best practices are applied at every level to ensure safe and reliable applications.
-                </p>
-                <h3>Maintenance and Long Term Support</h3>
-                <p>
-                  I provide ongoing maintenance, updates, bug fixes, and feature enhancements for Python and Django applications. This ensures your application remains secure, updated, and aligned with evolving business needs.
-                </p>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="service-image fix">
-                      <img
-                        data-speed=".7"
-                        src="assets/img/inner/service-details/service-details-02.jpg"
-                        alt="img"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="service-image fix">
-                      <img
-                        data-speed=".7"
-                        src="assets/img/inner/service-details/service-details-03.jpg"
-                        alt="img"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <h3>How This Service Benefits Your Business</h3>
-                <p></p>
-                <div class="text-list">
-                  <ul>
-                    <li>
-                      <b>01</b>Scalable Backend Solutions
-                      <p>
-                        Built to support growth, automation, and complex workflows.
-                      </p>
-                    </li>
-                    <li>
-                      <b>03</b>Secure and Reliable Development
-                      <p>
-                        Applications follow industry security and coding standards.
-                      </p>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <b>02</b>Automation and Efficiency
-                      <p>
-                        Python based automation reduces manual work and improves productivity.
-                      </p>
-                    </li>
-                    <li>
-                      <b>04</b>Reliable Communication and Support
-                      <p>
-                        Clear collaboration, timely delivery, and ongoing assistance when needed.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Faq Section Start -->
-        <section class="faq-section fix section-padding section-bg">
-          <div class="container">
-            <div class="row g-4">
-              <div class="col-lg-6">
-                <div class="faq-items">
-                  <div class="section-title mb-0">
-                    <h2 class="hero_title tv_hero_title hero_title_1">
-                      frequently <span>asked questions</span>
-                    </h2>
-                  </div>
-                  <ul class="accordion-box">
-                    <!--Block-->
-                    <li class="accordion block active-block wow fadeInUp">
-                      <div class="acc-btn active">
-                        What Shopify services do you provide?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content current">
-                        <div class="content">
-                          <div class="text">
-                            I provide Shopify store setup, custom theme
-                            development, Shopify Plus development, migrations,
-                            app integrations, automation, performance
-                            optimization, and SEO services.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <!--Block-->
-                    <li
-                      class="accordion block wow fadeInUp"
-                      data-wow-delay=".2s"
-                    >
-                      <div class="acc-btn">
-                        What Python and Django services do you provide?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content">
-                        <div class="content">
-                          <div class="text">
-                            I provide custom web application development, backend APIs, automation solutions, web scraping, AI driven automation, performance optimization, and maintenance services.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <!--Block-->
-                    <li
-                      class="accordion block wow fadeInUp"
-                      data-wow-delay=".4s"
-                    >
-                      <div class="acc-btn">
-                        What types of projects are suitable for Python and Django?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content">
-                        <div class="content">
-                          <div class="text">
-                            Python and Django are ideal for SaaS platforms, backend systems, automation tools, data driven applications, and enterprise level solutions.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <!--Block-->
-                    <li
-                      class="accordion block wow fadeInUp"
-                      data-wow-delay=".6s"
-                    >
-                      <div class="acc-btn">
-                        How long does it take to build a Python and Django application?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content">
-                        <div class="content">
-                          <div class="text">
-                            Timelines depend on project complexity. Small applications may take two to three weeks, while advanced platforms may take four to eight weeks..
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li
-                      class="accordion block mb-0 wow fadeInUp"
-                      data-wow-delay=".8s"
-                    >
-                      <div class="acc-btn">
-                        Can Python and Django be integrated with frontend frameworks?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content">
-                        <div class="content">
-                          <div class="text">
-                            Yes. Python and Django integrate seamlessly with Angular and other frontend technologies through secure APIs.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li
-                      class="accordion block mb-0 wow fadeInUp"
-                      data-wow-delay=".8s"
-                    >
-                      <div class="acc-btn">
-                        Do you provide support after project completion?
-                        <div class="icon fa fa-plus"></div>
-                      </div>
-                      <div class="acc-content">
-                        <div class="content">
-                          <div class="text">
-                            Yes. I offer post launch support, maintenance, and long term collaboration options.
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="faq-content-items">
-                  <div class="section-title mb-0">
-                    <h2 class="hero_title tv_hero_title hero_title_1">
-                      Contact <span>For Work</span>
-                    </h2>
-                  </div>
-                  <form action="#" class="wow fadeInUp" data-wow-delay=".3s">
-                    <div class="row g-4">
-                      <div class="col-lg-6">
-                        <div class="form-clt">
-                          <input type="text" placeholder="Enter Your Name" />
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <div class="form-clt">
-                          <input type="text" placeholder="Enter Your Number" />
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="form-clt">
-                          <input type="text" placeholder="Enter Your Email" />
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="form-clt">
-                          <textarea
-                            name="message"
-                            placeholder="Enter Your Messanger"
-                          ></textarea>
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="form-clt">
-                          <div class="budget-item">
-                            <h4>project budget</h4>
-                            <div class="budget-button">
-                              <button type="button" class="budget-btn">
-                                $500
-                              </button>
-                              <button type="button" class="budget-btn">
-                                $1200
-                              </button>
-                              <button type="button" class="budget-btn">
-                                $2000
-                              </button>
-                              <button type="button" class="budget-btn">
-                                $3500
-                              </button>
-                              <button type="button" class="budget-btn">
-                                $6000
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <button type="submit" class="theme-btn">
-                          send message
-                          <i class="fa-solid fa-arrow-up-right"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Brand Section Start -->
-        <div class="brand-section section-padding">
-          <div class="container">
-            <div class="brand-text">
-              <p>worldwide <b>valuable clients</b></p>
-            </div>
-            <div class="row g-3 g-xl-5">
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-1.png" alt="img" />
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-2.png" alt="img" />
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-3.png" alt="img" />
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-4.png" alt="img" />
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-5.png" alt="img" />
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-6.png" alt="img" />
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-7.png" alt="img" />
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div class="brand-box">
-                  <img src="assets/img/home-1/brand/brand-8.png" alt="img" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Cta Section Start -->
-        <section class="cta-section section-padding fix pt-0">
-          <div class="shape-1">
-            <img src="assets/img/home-1/cta/cta-shape-1.png" alt="img" />
-          </div>
-          <div class="shape-2">
-            <img src="assets/img/home-1/cta/shape-1.png" alt="img" />
-          </div>
-          <div class="shape-3">
-            <img src="assets/img/home-1/cta/shape-2.png" alt="img" />
-          </div>
-          <div class="shape-4">
-            <img src="assets/img/home-1/cta/shape-3.png" alt="img" />
-          </div>
-          <div class="shape-5">
-            <img src="assets/img/home-1/cta/shape-4.png" alt="img" />
-          </div>
-          <div class="shape-6">
-            <img src="assets/img/home-1/cta/shape-5.png" alt="img" />
-          </div>
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="cta-text-items text-center">
-                <div class="icon">
-                  <img src="assets/img/home-1/cta/cta-icon.svg" alt="img" />
-                </div>
-                <h2 class="text_invert-2">have a PROJECT in mind?</h2>
-                <h3 class="footer-big-text wt-about-title2">
-                  <a href="contact.html">let’s talk</a>
-                </h3>
-                <p class="wow fadeInUp" data-wow-delay=".3s">
-                  Then you’re in the right place. Get the best designs you’re
-                  <br />
-                  looking for. Just reach out and let me know!
-                </p>
-                <div class="cta-btn wow fadeInUp" data-wow-delay=".5s">
-                  <a href="https://wa.me/923126288419" class="theme-btn"
-                    >chat on whatsapp <i class="fa-solid fa-arrow-up-right"></i
-                  ></a>
-                  <a href="contact.html" class="theme-btn"
-                    >hire me <i class="fa-solid fa-arrow-up-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Footer Section Start -->
-        <footer class="footer-section fix pb-0">
-          <div class="container">
-            <div class="footer-wrapper wow fadeInUp" data-wow-delay=".3s">
-              <ul class="footer-menu-list">
-                <li>
-                  <a href="index.html">home</a>
-                </li>
-                <li>
-                  <a href="about.html">ABOUT ME</a>
-                </li>
-                <li>
-                  <a href="service.html">SERVICES</a>
-                </li>
-                <li>
-                  <a href="project.html">PORTFOLIO</a>
-                </li>
-                <li>
-                  <a href="news.html">news & blog</a>
-                </li>
-                <li>
-                  <a href="contact.html">CONTACT US</a>
-                </li>
-              </ul>
-              <div class="icon-items-area">
-                <div class="icon-items">
-                  <a href="#" class="icon">
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </a>
-                  <a href="#">Facebook</a>
-                </div>
-                <div class="icon-items">
-                  <a href="https://github.com/mohidimran-dev" class="icon">
-                    <i class="fa-brands fa-twitter"></i>
-                  </a>
-                  <a href="https://github.com/mohidimran-dev">GITHUB</a>
-                </div>
-                <div class="icon-items">
-                  <a href="https://www.linkedin.com/in/mohid-imran-shopify-angular-developer/" class="icon">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/mohid-imran-shopify-angular-developer/">Linkedin</a>
-                </div>
-                <div class="icon-items">
-                  <a href="https://www.instagram.com/_mirzamohid/" class="icon">
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
-                  <a href="https://www.instagram.com/_mirzamohid/">INSTAGRAM</a>
-                </div>
-              </div>
-            </div>
-            <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
-              <p>Copyright © <span>MOHID IMRAN</span></p>
-              <a href="index.html" class="footer-logo"
-                ><img src="assets/img/logo/white-icon.svg" alt="img"
-              /></a>
-              <ul>
-                <li>
-                  <a href="terms.html">Terms & Conditions</a>
-                </li>
-                <li>
-                  <a href="privacy-policy.html">Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </footer>
-      </div>
-    </div>
-
-    <!--<< All JS Plugins >>-->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!--<< Viewport Js >>-->
-    <script src="assets/js/viewport.jquery.js"></script>
-    <!--<< Bootstrap Js >>-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--<< Gsap Min Js >>-->
-    <script src="assets/js/gsap.min.js"></script>
-    <!--<< ScrollTrigger Min Js >>-->
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <!--<< ScrollSmoother Min Js >>-->
-    <script src="assets/js/ScrollSmoother.min.js"></script>
-    <!--<< ScrollToPlugin Min Js >>-->
-    <script src="assets/js/ScrollToPlugin.min.js"></script>
-    <!--<< SplitText Min Js >>-->
-    <script src="assets/js/SplitText.min.js"></script>
-    <!--<< TextPlugin Min Js >>-->
-    <script src="assets/js/TextPlugin.js"></script>
-    <!--<< Chroma Min Js >>-->
-    <script src="assets/js/chroma.min.js"></script>
-    <!--<< nice-selec Js >>-->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!--<< Waypoints Js >>-->
-    <script src="assets/js/jquery.waypoints.js"></script>
-    <!--<< Counterup Js >>-->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!--<< Swiper Slider Js >>-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!--<< MeanMenu Js >>-->
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <!--<< Parallaxie Js >>-->
-    <script src="assets/js/parallaxie.js"></script>
-    <!--<< Magnific Popup Js >>-->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!--<< Wow Animation Js >>-->
-    <script src="assets/js/wow.min.js"></script>
-    <!--<< Main.js >>-->
-    <script src="assets/js/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+<head>
+<!-- ========== Meta Tags ========== -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Gramentheme" name="author"/>
+<title>Python &amp; Django Developer for Hire | Backend Development, APIs &amp; AI Applications</title>
+<meta content="Hire an expert Python and Django developer for backend systems, REST APIs, web scraping, data automation, and AI-powered applications. Scalable architecture for startups and enterprise. Clients in USA, UAE, UK. Free consultation." name="description"/>
+<!-- ======== Page title ============ -->
+<link href="https://www.mohidimran.com/python.html" rel="canonical"/>
+<!--<< Favcion >>-->
+<link href="assets/img/favicon.svg" rel="shortcut icon"/>
+<!--<< Bootstrap min.css >>-->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+<!--<< All Min Css >>-->
+<link href="assets/css/all.min.css" rel="stylesheet"/>
+<!--<< Animate.css >>-->
+<link href="assets/css/animate.css" rel="stylesheet"/>
+<!--<< Magnific Popup.css >>-->
+<link href="assets/css/magnific-popup.css" rel="stylesheet"/>
+<!--<< MeanMenu.css >>-->
+<link href="assets/css/meanmenu.css" rel="stylesheet"/>
+<!--<< Swiper Bundle.css >>-->
+<link href="assets/css/swiper-bundle.min.css" rel="stylesheet"/>
+<!--<< Nice Select.css >>-->
+<link href="assets/css/nice-select.css" rel="stylesheet"/>
+<!--<< Main.css >>-->
+<link href="assets/css/main.css" rel="stylesheet"/>
+<meta content="python developer for hire, django developer, backend developer, rest api development, web scraping developer, python automation, django developer usa, python developer dubai, ai application developer, data pipeline developer, saas backend development" name="keywords"/><meta content="Python &amp; Django Backend Developer | APIs, Web Scraping &amp; AI Applications | Mohid Imran" property="og:title"/><meta content="Expert Python and Django development for REST APIs, web scraping, data automation, and AI applications. Scalable backends for startups and enterprise. USA, UAE, UK clients." property="og:description"/><meta content="https://www.mohidimran.com/python.html" property="og:url"/><link href="https://www.mohidimran.com/python.html" hreflang="en" rel="alternate"/><link href="https://www.mohidimran.com/python.html" hreflang="en-US" rel="alternate"/><link href="https://www.mohidimran.com/python.html" hreflang="en-GB" rel="alternate"/><link href="https://www.mohidimran.com/python.html" hreflang="en-AU" rel="alternate"/><link href="https://www.mohidimran.com/python.html" hreflang="en-CA" rel="alternate"/><link href="https://www.mohidimran.com/python.html" hreflang="en-AE" rel="alternate"/><link href="https://www.mohidimran.com/python.html" hreflang="en-PK" rel="alternate"/><link href="https://www.mohidimran.com/python.html" hreflang="x-default" rel="alternate"/><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.mohidimran.com/python.html#service",
+      "name": "Python & Django Backend Development Services",
+      "description": "Expert Python and Django development for REST APIs, web scraping, data automation, AI applications, and SaaS backends for global businesses.",
+      "provider": {
+        "@type": "Person",
+        "name": "Mohid Imran",
+        "url": "https://www.mohidimran.com"
+      },
+      "areaServed": [
+        "United States",
+        "United Kingdom",
+        "United Arab Emirates",
+        "Canada",
+        "Australia"
+      ],
+      "serviceType": "Python Development",
+      "url": "https://www.mohidimran.com/python.html",
+      "offers": {
+        "@type": "Offer",
+        "priceRange": "$800 - $10,000+",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mohidimran.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.mohidimran.com/service.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Python & Django Development",
+          "item": "https://www.mohidimran.com/python.html"
+        }
+      ]
+    }
+  ]
+}</script></head>
+<body>
+<!-- Preloader Start -->
+<div class="preloader">
+<svg preserveaspectratio="none" viewbox="0 0 1000 1000">
+<path d="M0,1005S175,995,500,995s500,5,500,5V0H0Z" id="svg"></path>
+</svg>
+<h5 class="preloader-text">MOHID</h5>
+</div>
+<!-- Back To Top Start -->
+<button class="back-to-top" id="back-top">
+<i class="fa-regular fa-arrow-up"></i>
+</button>
+<!-- GT MouseCursor Start -->
+<div class="mouseCursor cursor-outer"></div>
+<div class="mouseCursor cursor-inner"></div>
+<!-- Offcanvas Area Start -->
+<div class="fix-area">
+<div class="offcanvas__info style-2">
+<div class="offcanvas__wrapper">
+<div class="offcanvas__content">
+<div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+<div class="offcanvas__logo">
+<a href="index.html">
+<img alt="img" src="assets/img/logo/white-icon.svg"/>
+</a>
+</div>
+<div class="offcanvas__close">
+<button>
+<i class="fas fa-times"></i>
+</button>
+</div>
+</div>
+<p class="text d-none d-xl-block">
+                            Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                        </p>
+<div class="mobile-menu fix mb-3"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="offcanvas__overlay"></div>
+<!-- Header Section Start -->
+<header class="header-2 inner-page-style" id="header-sticky">
+<div class="container">
+<div class="mega-menu-wrapper">
+<div class="header-main">
+<a class="header-logo" href="index.html">
+<img alt="Mohid Imran - WordPress Development Expert Logo" height="40" src="assets/img/logo/white-icon.svg" width="120"/>
+</a>
+<div class="mean__menu-wrapper">
+<div class="main-menu">
+<nav aria-label="Main navigation" id="mobile-menu">
+<ul>
+<li class="has-dropdown active menu-thumb">
+<a href="index.html"> Home </a>
+</li>
+<li class="has-dropdown active d-xl-none">
+<a class="border-none" href="index.html">
+                        Home
+                      </a>
+</li>
+<li>
+<a href="about.html">about me</a>
+</li>
+<li class="has-dropdown">
+<a href="javascript:void(0)"> Services </a>
+<ul class="submenu">
+<!-- <li class="has-dropdown">
+                          <a href="javascript:void(0)">
+                            Service
+                            <i class="fas fa-angle-right"></i>
+                          </a>
+                          <ul class="submenu">
+                            <li><a href="service.html">Services</a></li>
+                            <li>
+                              <a href="service-details.html">Service Details</a>
+                            </li>
+                          </ul>
+                        </li> -->
+<li><a href="shopify.html">Shopify</a></li>
+<li><a href="wordpress.html">WordPress</a></li>
+<li><a href="angular.html">Frontend Development</a></li>
+<li><a href="python.html">Backend Development</a></li>
+<li><a href="custom-development.html">FullStack Development</a></li>
+<li><a href="automation.html">AI Automation &amp; Web Scraping</a></li>
+</ul>
+</li>
+<li>
+<a href="project-grid.html"> Portfolio </a>
+</li>
+<li>
+<a href="news-grid.html"> Blog </a>
+</li>
+<li>
+<a href="contact.html">Contact Us</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="header-right d-flex justify-content-end align-items-center mt-0">
+<a class="theme-btn" href="contact.html">Hire Me <i class="fa-solid fa-arrow-up-right"></i></a>
+<div class="header__hamburger d-xl-none my-auto">
+<div class="sidebar__toggle">
+<img alt="Menu toggle" height="30" src="assets/img/bar.svg" width="30"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="smooth-wrapper">
+<div id="smooth-content">
+<!-- Service Details Section Start -->
+<section class="service-details-section section-padding">
+<div class="container">
+<div class="service-details-wrapper">
+<div class="top-image-items">
+<h1>Expert Python &amp; Django Developer for Hire — Backend Systems, REST APIs, Web Scraping &amp; AI Applications</h1>
+<div class="service-details-image fix">
+<img alt="img" data-speed=".7" src="assets/img/inner/service-details/service-details-01.jpg"/>
+</div>
+</div>
+<div class="bottom-content-items">
+<h2>Overview</h2>
+<p>The right backend is invisible to your users and indispensable to your business. I build robust Python and Django backend systems that handle millions of requests, process complex business logic, integrate with any third-party service, and provide the rock-solid foundation your product needs to scale. Whether you're a funded startup building your MVP or an enterprise modernizing a legacy system — I deliver Python solutions that work.</p>
+<h3>Custom Python and Django Web Application Development</h3>
+<p>From high-performance REST APIs and web scraping pipelines to AI-powered data processing systems and full SaaS backends — my Python/Django work spans 40+ projects across the USA, UAE, UK, Canada, and Australia. I write clean, tested, documented code with proper authentication, authorization, caching, and monitoring built in from day one.</p>
+<h3>Django Backend Development and API Solutions</h3>
+<p>
+                  I develop robust Django backends and REST APIs to power web and mobile applications. This includes authentication systems, role based access control, database management, and API integrations.
+
+                  Django based APIs are optimized for performance, security, and seamless communication with frontend applications such as Angular or other frameworks.
+                </p>
+<h3>Python Automation and Workflow Optimization</h3>
+<p>
+                  I create Python based automation solutions to reduce manual work and improve operational efficiency. This includes task automation, data processing scripts, scheduled jobs, and workflow automation tailored to your business needs.
+
+                  Automation helps businesses save time, reduce errors, and improve productivity.
+                </p>
+<h3>Web Scraping and Data Extraction Services</h3>
+<p>
+                  I provide professional web scraping and data extraction services using Python to collect structured data from websites and online platforms. This includes handling large datasets, pagination, dynamic content, and data cleaning.
+
+                  All scraping solutions are built responsibly and optimized for accuracy and performance.
+                </p>
+<h3>AI Driven Automation and Intelligent Systems</h3>
+<p>
+                  I implement AI powered automation solutions using Python to enhance data processing, decision making, and workflow efficiency. This includes intelligent data handling, automation logic, and integration with existing systems to create smarter digital solutions.
+                </p>
+<h3>Python and Django Performance Optimization</h3>
+<p>
+                  Application performance is critical for scalability and reliability. I optimize Python and Django applications by improving database queries, caching strategies, code efficiency, and server side performance.
+
+This ensures faster response times and improved user experience.
+                </p>
+<h3>Python and Django Security Implementation</h3>
+<p>
+                  I implement strong security measures including secure authentication, data validation, access control, and protection against common vulnerabilities. Security best practices are applied at every level to ensure safe and reliable applications.
+                </p>
+<h3>Maintenance and Long Term Support</h3>
+<p>
+                  I provide ongoing maintenance, updates, bug fixes, and feature enhancements for Python and Django applications. This ensures your application remains secure, updated, and aligned with evolving business needs.
+                </p>
+<div class="row">
+<div class="col-lg-6">
+<div class="service-image fix">
+<img alt="img" data-speed=".7" src="assets/img/inner/service-details/service-details-02.jpg"/>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="service-image fix">
+<img alt="img" data-speed=".7" src="assets/img/inner/service-details/service-details-03.jpg"/>
+</div>
+</div>
+</div>
+<h3>How This Service Benefits Your Business</h3>
+<p></p>
+<div class="text-list">
+<ul>
+<li>
+<b>01</b>Scalable Backend Solutions
+                      <p>
+                        Built to support growth, automation, and complex workflows.
+                      </p>
+</li>
+<li>
+<b>03</b>Secure and Reliable Development
+                      <p>
+                        Applications follow industry security and coding standards.
+                      </p>
+</li>
+</ul>
+<ul>
+<li>
+<b>02</b>Automation and Efficiency
+                      <p>
+                        Python based automation reduces manual work and improves productivity.
+                      </p>
+</li>
+<li>
+<b>04</b>Reliable Communication and Support
+                      <p>
+                        Clear collaboration, timely delivery, and ongoing assistance when needed.
+                      </p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Faq Section Start -->
+<section class="faq-section fix section-padding section-bg">
+<div class="container">
+<div class="row g-4">
+<div class="col-lg-6">
+<div class="faq-items">
+<div class="section-title mb-0">
+<h2 class="hero_title tv_hero_title hero_title_1">
+                      frequently <span>asked questions</span>
+</h2>
+</div>
+<ul class="accordion-box">
+<!--Block-->
+<li class="accordion block active-block wow fadeInUp">
+<div class="acc-btn active">What Python and Django development services do you offer? <div class="icon fa fa-plus"></div></div>
+<div class="acc-content current">
+<div class="content">
+<div class="text">I offer: REST API development with Django REST Framework, web scraping and data extraction at scale (Scrapy, Selenium, Playwright, BeautifulSoup), task automation and scheduling (Celery, Redis), SaaS backend development, database design and optimization (PostgreSQL, MySQL, MongoDB), AI/ML application integration, third-party API integrations, data pipeline development, and legacy system modernization.</div>
+</div>
+</div>
+</li>
+<!--Block-->
+<li class="accordion block wow fadeInUp" data-wow-delay=".2s">
+<div class="acc-btn">How much does Python/Django backend development cost? <div class="icon fa fa-plus"></div></div>
+<div class="acc-content">
+<div class="content">
+<div class="text">Backend development investment: Simple REST API: $1,000–$2,500. Web scraping pipeline: $800–$2,000. SaaS backend with authentication: $2,500–$6,000. Full application backend: $3,000–$10,000+. AI application integration: $2,000–$8,000+. Pricing is based on complexity and scope — contact me for a detailed estimate.</div>
+</div>
+</div>
+</li>
+<!--Block-->
+<li class="accordion block wow fadeInUp" data-wow-delay=".4s">
+<div class="acc-btn">Can you build web scraping systems for large-scale data extraction? <div class="icon fa fa-plus"></div></div>
+<div class="acc-content">
+<div class="content">
+<div class="text">Yes. I specialize in enterprise-scale web scraping systems using Python (Scrapy, Playwright, Selenium, BeautifulSoup, httpx). I build scrapers that handle: anti-bot bypass with proxy rotation, JavaScript-heavy pages, large-scale concurrent extraction, structured data pipelines with PostgreSQL/MongoDB storage, scheduled automated runs, and dashboard monitoring. Legal and ethical data collection only.</div>
+</div>
+</div>
+</li>
+<!--Block-->
+<li class="accordion block wow fadeInUp" data-wow-delay=".6s">
+<div class="acc-btn">Do you integrate Python backends with AI and machine learning models? <div class="icon fa fa-plus"></div></div>
+<div class="acc-content">
+<div class="content">
+<div class="text">Yes. I build Python applications that integrate with OpenAI GPT-4/Claude APIs, HuggingFace models, LangChain pipelines, vector databases (Pinecone, ChromaDB), and custom fine-tuned models. I've built AI-powered chatbots, document processing systems, automated content generation pipelines, and intelligent data classification systems.</div>
+</div>
+</div>
+</li>
+<li class="accordion block mb-0 wow fadeInUp" data-wow-delay=".8s">
+<div class="acc-btn">What databases and infrastructure do you work with? <div class="icon fa fa-plus"></div></div>
+<div class="acc-content">
+<div class="content">
+<div class="text">Backend infrastructure stack: Databases — PostgreSQL, MySQL, SQLite, MongoDB, Redis. Cloud — AWS (EC2, RDS, S3, Lambda), DigitalOcean, Google Cloud, Heroku. Deployment — Docker, Docker Compose, Nginx, Gunicorn. Task queues — Celery with Redis/RabbitMQ. Search — Elasticsearch, Algolia. I set up full CI/CD pipelines and monitoring for production deployments.</div>
+</div>
+</div>
+</li>
+<li class="accordion block mb-0 wow fadeInUp" data-wow-delay=".8s">
+<div class="acc-btn">
+                        Do you provide support after project completion?
+                        <div class="icon fa fa-plus"></div>
+</div>
+<div class="acc-content">
+<div class="content">
+<div class="text">
+                            Yes. I offer post launch support, maintenance, and long term collaboration options.
+                          </div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="faq-content-items">
+<div class="section-title mb-0">
+<h2 class="hero_title tv_hero_title hero_title_1">
+                      Contact <span>For Work</span>
+</h2>
+</div>
+<form action="#" class="wow fadeInUp" data-wow-delay=".3s">
+<div class="row g-4">
+<div class="col-lg-6">
+<div class="form-clt">
+<input placeholder="Enter Your Name" type="text"/>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="form-clt">
+<input placeholder="Enter Your Number" type="text"/>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-clt">
+<input placeholder="Enter Your Email" type="text"/>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-clt">
+<textarea name="message" placeholder="Enter Your Messanger"></textarea>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-clt">
+<div class="budget-item">
+<h4>project budget</h4>
+<div class="budget-button">
+<button class="budget-btn" type="button">
+                                $500
+                              </button>
+<button class="budget-btn" type="button">
+                                $1200
+                              </button>
+<button class="budget-btn" type="button">
+                                $2000
+                              </button>
+<button class="budget-btn" type="button">
+                                $3500
+                              </button>
+<button class="budget-btn" type="button">
+                                $6000
+                              </button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+<button class="theme-btn" type="submit">
+                          send message
+                          <i class="fa-solid fa-arrow-up-right"></i>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Brand Section Start -->
+<div class="brand-section section-padding">
+<div class="container">
+<div class="brand-text">
+<p>worldwide <b>valuable clients</b></p>
+</div>
+<div class="row g-3 g-xl-5">
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+<div class="brand-box">
+<img alt="img" src="assets/img/home-1/brand/brand-1.png"/>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+<div class="brand-box">
+<img alt="img" src="assets/img/home-1/brand/brand-2.png"/>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+<div class="brand-box">
+<img alt="img" src="assets/img/home-1/brand/brand-3.png"/>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+<div class="brand-box">
+<img alt="img" src="assets/img/home-1/brand/brand-4.png"/>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+<div class="brand-box">
+<img alt="img" src="assets/img/home-1/brand/brand-5.png"/>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+<div class="brand-box">
+<img alt="img" src="assets/img/home-1/brand/brand-6.png"/>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+<div class="brand-box">
+<img alt="img" src="assets/img/home-1/brand/brand-7.png"/>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+<div class="brand-box">
+<img alt="img" src="assets/img/home-1/brand/brand-8.png"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Cta Section Start -->
+<section class="cta-section section-padding fix pt-0">
+<div class="shape-1">
+<img alt="img" src="assets/img/home-1/cta/cta-shape-1.png"/>
+</div>
+<div class="shape-2">
+<img alt="img" src="assets/img/home-1/cta/shape-1.png"/>
+</div>
+<div class="shape-3">
+<img alt="img" src="assets/img/home-1/cta/shape-2.png"/>
+</div>
+<div class="shape-4">
+<img alt="img" src="assets/img/home-1/cta/shape-3.png"/>
+</div>
+<div class="shape-5">
+<img alt="img" src="assets/img/home-1/cta/shape-4.png"/>
+</div>
+<div class="shape-6">
+<img alt="img" src="assets/img/home-1/cta/shape-5.png"/>
+</div>
+<div class="row">
+<div class="col-xl-12">
+<div class="cta-text-items text-center">
+<div class="icon">
+<img alt="img" src="assets/img/home-1/cta/cta-icon.svg"/>
+</div>
+<h2 class="text_invert-2">have a PROJECT in mind?</h2>
+<h3 class="footer-big-text wt-about-title2">
+<a href="contact.html">let’s talk</a>
+</h3>
+<p class="wow fadeInUp" data-wow-delay=".3s">
+                  Then you’re in the right place. Get the best designs you’re
+                  <br/>
+                  looking for. Just reach out and let me know!
+                </p>
+<div class="cta-btn wow fadeInUp" data-wow-delay=".5s">
+<a class="theme-btn" href="https://wa.me/923126288419">chat on whatsapp <i class="fa-solid fa-arrow-up-right"></i></a>
+<a class="theme-btn" href="contact.html">hire me <i class="fa-solid fa-arrow-up-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer Section Start -->
+<footer class="footer-section fix pb-0">
+<div class="container">
+<div class="footer-wrapper wow fadeInUp" data-wow-delay=".3s">
+<ul class="footer-menu-list">
+<li>
+<a href="index.html">home</a>
+</li>
+<li>
+<a href="about.html">ABOUT ME</a>
+</li>
+<li>
+<a href="service.html">SERVICES</a>
+</li>
+<li>
+<a href="project.html">PORTFOLIO</a>
+</li>
+<li>
+<a href="news.html">news &amp; blog</a>
+</li>
+<li>
+<a href="contact.html">CONTACT US</a>
+</li>
+</ul>
+<div class="icon-items-area">
+<div class="icon-items">
+<a class="icon" href="https://www.facebook.com/mohidimran" target="_blank" rel="noopener">
+<i class="fa-brands fa-facebook-f"></i>
+</a>
+<a href="https://www.facebook.com/mohidimran" target="_blank" rel="noopener">Facebook</a>
+</div>
+<div class="icon-items">
+<a class="icon" href="https://github.com/mohidimran-dev">
+<i class="fa-brands fa-twitter"></i>
+</a>
+<a href="https://github.com/mohidimran-dev">GITHUB</a>
+</div>
+<div class="icon-items">
+<a class="icon" href="https://www.linkedin.com/in/mohid-imran-shopify-angular-developer/">
+<i class="fa-brands fa-linkedin-in"></i>
+</a>
+<a href="https://www.linkedin.com/in/mohid-imran-shopify-angular-developer/">Linkedin</a>
+</div>
+<div class="icon-items">
+<a class="icon" href="https://www.instagram.com/_mirzamohid/">
+<i class="fa-brands fa-instagram"></i>
+</a>
+<a href="https://www.instagram.com/_mirzamohid/">INSTAGRAM</a>
+</div>
+</div>
+</div>
+<div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
+<p>Copyright © <span>MOHID IMRAN</span></p>
+<a class="footer-logo" href="index.html"><img alt="img" src="assets/img/logo/white-icon.svg"/></a>
+<ul>
+<li>
+<a href="terms.html">Terms &amp; Conditions</a>
+</li>
+<li>
+<a href="privacy-policy.html">Privacy Policy</a>
+</li>
+</ul>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<!--<< All JS Plugins >>-->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<!--<< Viewport Js >>-->
+<script src="assets/js/viewport.jquery.js"></script>
+<!--<< Bootstrap Js >>-->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!--<< Gsap Min Js >>-->
+<script src="assets/js/gsap.min.js"></script>
+<!--<< ScrollTrigger Min Js >>-->
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<!--<< ScrollSmoother Min Js >>-->
+<script src="assets/js/ScrollSmoother.min.js"></script>
+<!--<< ScrollToPlugin Min Js >>-->
+<script src="assets/js/ScrollToPlugin.min.js"></script>
+<!--<< SplitText Min Js >>-->
+<script src="assets/js/SplitText.min.js"></script>
+<!--<< TextPlugin Min Js >>-->
+<script src="assets/js/TextPlugin.js"></script>
+<!--<< Chroma Min Js >>-->
+<script src="assets/js/chroma.min.js"></script>
+<!--<< nice-selec Js >>-->
+<script src="assets/js/jquery.nice-select.min.js"></script>
+<!--<< Waypoints Js >>-->
+<script src="assets/js/jquery.waypoints.js"></script>
+<!--<< Counterup Js >>-->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!--<< Swiper Slider Js >>-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!--<< MeanMenu Js >>-->
+<script src="assets/js/jquery.meanmenu.min.js"></script>
+<!--<< Parallaxie Js >>-->
+<script src="assets/js/parallaxie.js"></script>
+<!--<< Magnific Popup Js >>-->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!--<< Wow Animation Js >>-->
+<script src="assets/js/wow.min.js"></script>
+<!--<< Main.js >>-->
+<script src="assets/js/main.js"></script>
+</body>
 </html>
