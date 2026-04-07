@@ -1,12 +1,16 @@
 User-agent: *
 Allow: /
 
-# Block utility/template pages from indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Block template/utility pages from indexing
 Disallow: /404.html
 Disallow: /project-details.html
 Disallow: /news-details.html
-
-# Block assets
-Disallow: /assets/
+Disallow: /SEO-STRATEGY-GUIDE.html
 
 Sitemap: https://www.mohidimran.com/sitemap.xml
