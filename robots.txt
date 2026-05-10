@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /Pages/404.html
+Disallow: /Projects/project-details.html
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+Sitemap: https://www.mohidimran.com/sitemap.xml
