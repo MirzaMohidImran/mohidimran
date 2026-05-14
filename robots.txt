@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /Pages/404.html
-Disallow: /Projects/project-details.html
+Allow: /Projects/project-details.html
 Disallow: /Services/Shopify/shopify.html
 
 User-agent: GPTBot
