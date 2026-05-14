@@ -1,0 +1,35 @@
+# Mohid Imran
+
+Mohid Imran is a Lahore, Pakistan based full-stack web developer serving global clients in the USA, UAE, UK, Canada, Australia, and worldwide. Core specialties include Shopify development, WordPress development, React and Angular frontend development, Python and Django backend development, AI automation, API integrations, and web scraping.
+
+## Key Pages
+
+- Home: https://www.mohidimran.com/
+- About: https://www.mohidimran.com/Pages/about.html
+- Services: https://www.mohidimran.com/Services/service.html
+- Shopify Development: https://www.mohidimran.com/Services/shopify-development-services.html
+- WordPress Development: https://www.mohidimran.com/Services/WordPress/wordpress.html
+- Frontend Development: https://www.mohidimran.com/Services/Frontend%20Developer/angular.html
+- Full-Stack Development: https://www.mohidimran.com/Services/Frontend%20Developer/custom-development.html
+- Python and Django Development: https://www.mohidimran.com/Services/Python/python.html
+- AI Automation and Web Scraping: https://www.mohidimran.com/Services/Ai%20Automation/automation.html
+- Portfolio: https://www.mohidimran.com/Projects/project-grid.html
+- Blog: https://www.mohidimran.com/Blogs/news-grid.html
+- FAQ: https://www.mohidimran.com/Pages/faq.html
+- Contact: https://www.mohidimran.com/Pages/contact.html
+
+## Service Summary
+
+Mohid Imran builds conversion-focused Shopify stores, SEO-ready WordPress websites, custom React and Angular interfaces, scalable Python/Django systems, AI-powered workflow automation, and web scraping/data extraction pipelines.
+
+## Buyer Fit
+
+Best-fit clients include ecommerce brands, agencies, startups, small businesses, SaaS teams, and operations teams that need reliable development, clear communication, performance optimization, and automation systems built for measurable business outcomes.
+
+## Contact
+
+- Website: https://www.mohidimran.com/
+- Email: mirzamohidimran@gmail.com
+- WhatsApp: +923126288419
+- GitHub: https://github.com/mohidimran-dev
+- LinkedIn: https://www.linkedin.com/in/mohid-imran-shopify-angular-developer/
